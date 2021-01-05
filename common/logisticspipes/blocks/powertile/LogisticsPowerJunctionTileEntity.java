@@ -65,7 +65,7 @@ public class LogisticsPowerJunctionTileEntity extends LogisticsSolidTileEntity i
 	public final static int IC2Multiplier = 2;
 	public final static int RFDivisor = 2;
 	public final static int MJMultiplier = 5;
-	public final static int MAX_STORAGE = 2000000;
+	public final static int MAX_STORAGE = 2147483647;
 
 	private int internalStorage = 0;
 	private int lastUpdateStorage = 0;

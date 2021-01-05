@@ -37,7 +37,7 @@ import network.rs485.logisticspipes.module.SimpleFilter;
 
 public class ModulePassiveSupplier extends LogisticsModule implements Gui, SimpleFilter, IClientInformationProvider, IHUDModuleHandler, IModuleWatchReciver, IModuleInventoryReceive, ISimpleInventoryEventHandler {
 
-	private final ItemIdentifierInventory _filterInventory = new ItemIdentifierInventory(9, "Requested items", 64);
+	private final ItemIdentifierInventory _filterInventory = new ItemIdentifierInventory(9, "Requested items", 2147483647);
 	private final PlayerCollectionList localModeWatchers = new PlayerCollectionList();
 	private IHUDModuleRenderer HUD = new HUDSimpleFilterModule(this);
 	private SinkReply _sinkReply;

@@ -58,9 +58,9 @@ public class ModuleActiveSupplier extends LogisticsModule implements IRequestIte
 
 	private final PlayerCollectionList localModeWatchers = new PlayerCollectionList();
 	private final HashMap<ItemIdentifier, Integer> _requestedItems = new HashMap<>();
-	public int[] slotArray = new int[9];
+	public int[] slotArray = new int[27];
 	private boolean _lastRequestFailed = false;
-	private ItemIdentifierInventory dummyInventory = new ItemIdentifierInventory(9, "", 127);
+	private ItemIdentifierInventory dummyInventory = new ItemIdentifierInventory(9, "", 2147483647);
 	private SupplyMode _requestMode = SupplyMode.Bulk50;
 	private PatternMode _patternMode = PatternMode.Bulk50;
 	@Getter
